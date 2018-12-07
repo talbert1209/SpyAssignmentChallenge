@@ -31,7 +31,7 @@
                 <asp:Calendar ID="newEndDateCalendar" runat="server"></asp:Calendar>
                 <br />
                 <br />
-                <asp:Button ID="assignSpyButton" runat="server" Text="Assign Spy" />
+                <asp:Button ID="assignSpyButton" runat="server" OnClick="assignSpyButton_Click" Text="Assign Spy" />
                 <br />
                 <br />
                 <asp:Label ID="resultsLabel" runat="server"></asp:Label>
